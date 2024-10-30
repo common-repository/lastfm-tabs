@@ -1,0 +1,146 @@
+.idTabs {list-style-type: none;margin:0 10px 0 0;padding:0;}
+
+.idTabs a{display:block;padding:10px 5px 10px 0;margin:0 auto;text-align:left;outline: none;}
+
+.idTabs li{display:inline;float:left;margin:0;padding:0;}
+
+#lastfm_inside{clear:both;}
+
+.clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+
+.clearfix { display: block; }
+
+#lastfm_inside ul{padding: 0 20px 20px;margin:0;list-style-type: none;}
+
+.lastfm_record .boxcaptionsmall {
+	top: 260;
+	left: 0;
+}
+.lastfm_record .boxcaptionsmall {
+	top: 220;
+	left: 0;
+}
+
+.boxcaptionsmall {
+	float: left;
+	background: #000;
+	position: absolute;
+	top:130px;
+	height: 70px;
+	width: 126px;
+	opacity: .8;
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.boxcaptionsmall p {
+	font-size: 10px;
+	margin: 0;
+	padding:0 5px;
+	color: #fff;
+}
+
+.lastfm_record {
+	width: 126px;
+	height: 130px;
+	margin:10px 10px 0 0;
+	float:left;
+	overflow: hidden;
+	position: relative;
+}
+
+.lastfm_record img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	width: 126px;
+	height: 126px;
+}
+
+.clear{clear:both;}
+
+.lastfm_widget{
+	margin: 0;
+	padding: 0;
+	list-style: none inside;
+}
+
+.records_tab{
+	list-style: none inside;
+	overflow: hidden;
+}
+
+.lastfm_record {
+	float:left;
+	position:relative;
+	overflow:hidden;
+	width:126px;
+	height:126px;
+	margin:2px 10px 10px 2px;
+	background: url(../img/progress.gif) #111 no-repeat center center;
+	border: 1px solid black;
+	box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+}
+
+.lastfm_record .details{
+	margin: 5px;
+}
+
+
+.lastfm_record img{
+	max-width: 100%!important;
+}
+
+.mosaic-overlay {
+	display:none;
+	z-index:5;
+	position:absolute;
+	width:100%;
+	height:75px;
+	background:url(../img/bg-black.png) #111;
+	opacity: .8;
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.lastfm_record .mosaic-overlay.slide.bottom {
+	bottom:-75px;
+	height:75px;
+}
+
+.lastfm_record .mosaic-overlay.slide.left {
+	left: -100%;
+	bottom: 0;
+}
+
+.lastfm_record .mosaic-overlay.slide.right {
+	right: -100%;
+	bottom: 0;
+}
+
+.lastfm_record .mosaic-overlay.slide.top{
+	top: -75px;
+}
+
+.lastfm_record .mosaic-overlay.fade {
+	opacity: 0;
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	bottom: 0;
+}
+
+.lastfm_record p{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 15px;
+}

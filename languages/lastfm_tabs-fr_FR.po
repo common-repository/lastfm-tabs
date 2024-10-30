@@ -1,0 +1,536 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Last.fm Tabs v2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-07-11 21:48:11+0000\n"
+"Last-Translator: mermouy <mermouy@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: lastfm_options.php:23
+#@ lastfm_tabs
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+#: lastfm_options.php:24
+#@ lastfm_tabs
+msgid "Widget tabs"
+msgstr "Onglets du widget"
+
+#: lastfm_options.php:25
+#@ lastfm_tabs
+msgid "Reset to defaults"
+msgstr "Réinitialisation"
+
+#: lastfm_options.php:26
+#@ lastfm_tabs
+msgid "About/Help"
+msgstr "À propos/Aide"
+
+#: lastfm_options.php:37
+#: lastfm_options.php:83
+#@ lastfm_tabs
+msgid "Last.fm options"
+msgstr "Options Last.fm"
+
+#: lastfm_options.php:48
+#@ lastfm_tabs
+msgid "Default Field"
+msgstr "Champ par défaut"
+
+#: lastfm_options.php:49
+#@ lastfm_tabs
+msgid "This is a default description."
+msgstr "Ceci est une description par défaut."
+
+#: lastfm_options.php:98
+#@ lastfm_tabs
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+#: lastfm_options.php:151
+#@ lastfm_tabs
+msgid "Clear caches"
+msgstr "Nettoyer les fichiers en cache"
+
+#: lastfm_options.php:170
+#@ lastfm_tabs
+msgid "<h4>Shortcode</h4>"
+msgstr "<h4>Shortcode</h4>"
+
+#: lastfm_options.php:171
+#@ lastfm_tabs
+msgid "<p>You can use the following shortcode:</p>"
+msgstr "<p>Vous pouvez utiliser le shortcode suivant dans vos pages et articles:</p>"
+
+#: lastfm_options.php:173
+#@ lastfm_tabs
+msgid "<p>The following functions are available: albums, friends, charts, artists, info, recent, loved and shouts</p>"
+msgstr "<p>Les fonctions disponibles sont: <i>albums, friends, charts, artists, info, recent, loved and shouts</i></p>"
+
+#: lastfm_options.php:174
+#@ lastfm_tabs
+msgid "<p>You may combine two or more of these functions with commas.</p>"
+msgstr "<p>Vous pouvez combiner deux fonctions ou plus avec des virgules.</p>"
+
+#: lastfm_options.php:175
+#@ lastfm_tabs
+msgid "<p>The title-parameter enables/disables output of the corresponding title for each function. Title and count are optional. If not provided, the plugin options will be used.</p>"
+msgstr "<p>Le paramètre titre active/désactive l'affichage du titre correspondant pour chaque fonction. Les options \"titres\" et \"nombres\" sont optionnelles. Si elles ne sont pas fournies, les options générales du plugin seront utilisées.</p>"
+
+#: lastfm_options.php:176
+#@ lastfm_tabs
+msgid "<p>An example:</p>"
+msgstr "<p>Un exemple:</p>"
+
+#: lastfm_options.php:178
+#@ lastfm_tabs
+msgid "<p>Would display all functions in that order with max. 3 entries each and print the titles.</p>"
+msgstr "<p>Affichera toutes les fonctions dans cet ordre avec maximum 3 entrées pour chaque et affichera les titres.</p>"
+
+#: lastfm_options.php:179
+#@ lastfm_tabs
+msgid "<h4>Template tag</h4>"
+msgstr "<h4>Template tag</h4>"
+
+#: lastfm_options.php:180
+#@ lastfm_tabs
+msgid "<p>In your templates you can use the function <span class=\"code\">lastfm_tabs_render($functions=array(), $count=false, $echotitle=false, $return=false)</span></p>"
+msgstr "<p>Dans votre thème vous pouvez utiliser la fonction <span class=\"code\">lastfm_tabs_render($functions=array(), $count=false, $echotitle=false, $return=false)</span></p>"
+
+#: lastfm_options.php:181
+#@ lastfm_tabs
+msgid "<p>So the following would output a list of 5 of your friends and the 5 most listened to albums without titles:</p>"
+msgstr "<p>L'expression suivante affichera une liste de 5 de vos amis et les 5 albums les plus écoutés sans les titres:</p>"
+
+#: lastfm_options.php:184
+#@ lastfm_tabs
+msgid "<p>If you do not want to echo the function's return, add the last parameter and set it to true.</p>"
+msgstr "<p>Si vous ne voulez pas afficher le retour de la fonction, ajoutez le dernier paramètre et réglez le sur true</p>"
+
+#: lastfm_options.php:185
+#@ lastfm_tabs
+msgid "<h4>Note</h4>"
+msgstr "<h4>Note</h4>"
+
+#: lastfm_options.php:186
+#@ lastfm_tabs
+msgid "<p>Changes in a template tag will not immediately take effect since all the data is cached. If you change options in a template tag you have to manually clean the plugin cache.</p>"
+msgstr "<p>Les changements dans le fichier thème ne seront pas visibles immédiatement, étant donné que les données sont mises en cache. Si vous changez une option dans le thème il vous faudra purger manuellement le cache de l'extension</p>"
+
+#: lastfm_options.php:187
+#@ lastfm_tabs
+msgid "<p>If you have any questions or ideas to improve this plugins, write to felix@kreativkonzentrat.de or drop a line at "
+msgstr "<P>Si vous avez des questions ou des idées d'améliorations de l'extension, écrivez à felix@kreativkonzentrat.de oo envoyez moi une note à "
+
+#: lastfm_options.php:262
+#@ lastfm_tabs
+msgid "Widget title"
+msgstr "Titre du Widget"
+
+#: lastfm_options.php:263
+#@ lastfm_tabs
+msgid "Default widget title"
+msgstr "Titre du Widget par défaut"
+
+#: lastfm_options.php:269
+#@ lastfm_tabs
+msgid "Last.fm username"
+msgstr "Nom d'utilisateur Last.fm"
+
+#: lastfm_options.php:270
+#@ lastfm_tabs
+msgid "Your last.fm username"
+msgstr "Votre nom d'utilisateur Last.fm"
+
+#: lastfm_options.php:277
+#@ lastfm_tabs
+msgid "Cover size"
+msgstr "Taille des pochettes"
+
+#: lastfm_options.php:278
+#@ lastfm_tabs
+msgid "Size of displayed images"
+msgstr "Tailles des images affichées"
+
+#: lastfm_options.php:282
+#@ lastfm_tabs
+msgid "small"
+msgstr "petite"
+
+#: lastfm_options.php:283
+#@ lastfm_tabs
+msgid "medium"
+msgstr "moyenne"
+
+#: lastfm_options.php:284
+#@ lastfm_tabs
+msgid "large"
+msgstr "grande"
+
+#: lastfm_options.php:285
+#@ lastfm_tabs
+msgid "extra large"
+msgstr "très grande"
+
+#: lastfm_options.php:289
+#@ lastfm_tabs
+msgid "Cache expiration"
+msgstr "Expiration du cache"
+
+#: lastfm_options.php:290
+#@ lastfm_tabs
+msgid "Time in minutes"
+msgstr "Temps de cache en minutes"
+
+#: lastfm_options.php:297
+#@ lastfm_tabs
+msgid "Fallback cover"
+msgstr "Pochette par défaut"
+
+#: lastfm_options.php:298
+#@ lastfm_tabs
+msgid "URL of fallback cover when no image is found"
+msgstr "URL ou pochette par défaut quand aucune image n'est trouvée"
+
+#: lastfm_options.php:305
+#@ lastfm_tabs
+msgid "Fancy mouseover effect"
+msgstr "Effet au suvol"
+
+#: lastfm_options.php:306
+#@ lastfm_tabs
+msgid "Sliding/fading caption on covers"
+msgstr "Glissé/fondu de la légende des pochettes"
+
+#: lastfm_options.php:312
+#@ lastfm_tabs
+msgid "Effect"
+msgstr "Effet"
+
+#: lastfm_options.php:317
+#@ lastfm_tabs
+msgid "fade"
+msgstr "fondu"
+
+#: lastfm_options.php:318
+#@ lastfm_tabs
+msgid "slide"
+msgstr "glissé"
+
+#: lastfm_options.php:322
+#@ lastfm_tabs
+msgid "Effect duration"
+msgstr "Durée de l'effet"
+
+#: lastfm_options.php:323
+#@ lastfm_tabs
+msgid "in ms"
+msgstr "en ms"
+
+#: lastfm_options.php:331
+#@ lastfm_tabs
+msgid "Effect origin"
+msgstr "Origine de l'effet"
+
+#: lastfm_options.php:336
+#@ lastfm_tabs
+msgid "bottom"
+msgstr "bas"
+
+#: lastfm_options.php:337
+#@ lastfm_tabs
+msgid "top"
+msgstr "haut"
+
+#: lastfm_options.php:338
+#@ lastfm_tabs
+msgid "left"
+msgstr "gauche"
+
+#: lastfm_options.php:339
+#@ lastfm_tabs
+msgid "right"
+msgstr "droite"
+
+#: lastfm_options.php:343
+#@ lastfm_tabs
+msgid "Use stylesheet?"
+msgstr "Utiliser la feuille de style?"
+
+#: lastfm_options.php:344
+#@ lastfm_tabs
+msgid "Needed for sliding/fading captions. Fixes image width and height to 126px.<br /> You can place your own lastfm.css in your template folder to overwrite the default stylesheet."
+msgstr "Nécessaire pour les légendes en glissé/fondu. Fixe les tailles images à 126 px.<br />Vous pouvez placer votre propre lastfm.css dans votre thème pour écraser la feuille par défaut."
+
+#: lastfm_options.php:350
+#@ lastfm_tabs
+msgid "Enable tabbed navigation?"
+msgstr "Activer la navigation par onglets?"
+
+#: lastfm_options.php:351
+#@ lastfm_tabs
+msgid "jQuery tabs for your Last.fm widget"
+msgstr "Onglet jQuery pour votre widget Last.fm"
+
+#: lastfm_options.php:357
+#@ lastfm_tabs
+msgid "Show artist image when no album cover is found instead of default cover?"
+msgstr "Afficher l'image de l'artiste quand aucune pochette d'album n'est trouvée à la place de la couverture par défaut?"
+
+#: lastfm_options.php:358
+#@ lastfm_tabs
+msgid "May increase loading time"
+msgstr "Peut augmenter le temps de chargement"
+
+#: lastfm_options.php:364
+#@ lastfm_tabs
+msgid "Enable debugmode?"
+msgstr "Activer le mode Debug?"
+
+#: lastfm_options.php:365
+#@ lastfm_tabs
+msgid "Shows some caching information"
+msgstr "Montre quelques informations de debug"
+
+#: lastfm_options.php:376
+#@ lastfm_tabs
+msgid "Enable recently played tracks tab?"
+msgstr "Activer l'onglet des \"morceaux récemment joués\"?"
+
+#: lastfm_options.php:383
+#: lastfm_options.php:405
+#: lastfm_options.php:419
+#: lastfm_options.php:441
+#: lastfm_options.php:463
+#: lastfm_options.php:485
+#: lastfm_options.php:507
+#: lastfm_options.php:543
+#@ lastfm_tabs
+msgid "Title:"
+msgstr "Titre:"
+
+#: lastfm_options.php:390
+#@ lastfm_tabs
+msgid "Number of tracks to display"
+msgstr "Nombre de morceaux à afficher"
+
+#: lastfm_options.php:398
+#@ lastfm_tabs
+msgid "Enable user info tab?"
+msgstr "Activer l'onglet \"profil utilisateur\"?"
+
+#: lastfm_options.php:412
+#@ lastfm_tabs
+msgid "Enable friends tab?"
+msgstr "Activer l'onglet amis?"
+
+#: lastfm_options.php:426
+#@ lastfm_tabs
+msgid "Number of friends to display"
+msgstr "Nombre d'amis à afficher"
+
+#: lastfm_options.php:434
+#@ lastfm_tabs
+msgid "Enable loved tracks tab?"
+msgstr "Activer l'onglet \"morceaux aimés\""
+
+#: lastfm_options.php:448
+#@ lastfm_tabs
+msgid "Number of loved tracks to display"
+msgstr "Nombre de \"morceaux aimés\" à afficher"
+
+#: lastfm_options.php:456
+#@ lastfm_tabs
+msgid "Enable shouts tab?"
+msgstr "Activer l'onglet \"statut\\\"?"
+
+#: lastfm_options.php:470
+#@ lastfm_tabs
+msgid "Number of shouts to display"
+msgstr "Nombre de \"statuts\" à afficher"
+
+#: lastfm_options.php:478
+#@ lastfm_tabs
+msgid "Enable weekly album charts tab?"
+msgstr "Activer l'onglet des \"statistiques albums de la semaine\"?"
+
+#: lastfm_options.php:479
+#: lastfm_options.php:501
+#: lastfm_options.php:537
+#@ lastfm_tabs
+msgid "May increase loading time on big lists when not cached yet"
+msgstr "Peut augmenter le temps de chargement si les données n'ont pas encore été mises en cache"
+
+#: lastfm_options.php:492
+#@ lastfm_tabs
+msgid "Number of chart entries to display"
+msgstr "Nombre d'entrées \"statistiques\" à afficher"
+
+#: lastfm_options.php:500
+#@ lastfm_tabs
+msgid "Enable top albums tab?"
+msgstr "Activer l'onglet des \"albums les plus écoutés\"?"
+
+#: lastfm_options.php:514
+#: lastfm_options.php:550
+#@ lastfm_tabs
+msgid "Number of top album entries to display"
+msgstr "Nombre d'\"albums les plus écoutés\" à afficher"
+
+#: lastfm_options.php:522
+#: lastfm_options.php:558
+#@ lastfm_tabs
+msgid "Period"
+msgstr "Période"
+
+#: lastfm_options.php:536
+#@ lastfm_tabs
+msgid "Enable top artists tab?"
+msgstr "Activer l'onglet \"artistes les plus écoutés\"?"
+
+#: lastfm_options.php:572
+#@ lastfm_tabs
+msgid "Reset options"
+msgstr "Réinitialiser les options"
+
+#: lastfm_options.php:576
+#@ lastfm_tabs
+msgid "Check this box and click \"Save Changes\" below to reset all plugin options to their defaults."
+msgstr "Cochez cette case et cliquez sur \"Enregistrer les modifications\" ci-dessous pour réinitialiser toutes les options à leur valeur par défaut."
+
+#: lastfm_tabs.php:126
+#: lastfm_tabs.php:349
+#: lastfm_tabs.php:409
+#: lastfm_tabs.php:478
+#: lastfm_tabs.php:527
+#: lastfm_tabs.php:587
+#: lastfm_tabs.php:662
+#: lastfm_tabs.php:756
+#: lastfm_tabs.php:844
+#, php-format
+#@ lastfm_tabs
+msgid "%s data not cached. "
+msgstr "%s de données non mises en cache "
+
+#: lastfm_tabs.php:169
+#: lastfm_tabs.php:387
+#: lastfm_tabs.php:460
+#: lastfm_tabs.php:508
+#: lastfm_tabs.php:565
+#: lastfm_tabs.php:640
+#: lastfm_tabs.php:733
+#: lastfm_tabs.php:822
+#: lastfm_tabs.php:892
+#: lastfm_tabs.php:968
+#, php-format
+#@ lastfm_tabs
+msgid "%s data was cached. "
+msgstr "%s de données ont été mises en cache "
+
+#: lastfm_tabs.php:191
+#@ default
+msgid "Settings"
+msgstr ""
+
+#: lastfm_tabs.php:207
+#@ lastfm_tabs
+msgid "Caches cleared."
+msgstr "Caches purgés"
+
+#: lastfm_tabs.php:546
+#@ lastfm_tabs
+msgid "ID: "
+msgstr "ID: "
+
+#: lastfm_tabs.php:547
+#@ lastfm_tabs
+msgid "Nick: "
+msgstr "Pseudo: "
+
+#: lastfm_tabs.php:548
+#@ lastfm_tabs
+msgid "Name: "
+msgstr "Nom: "
+
+#: lastfm_tabs.php:549
+#@ lastfm_tabs
+msgid "Country: "
+msgstr "Pays: "
+
+#: lastfm_tabs.php:550
+#@ lastfm_tabs
+msgid "Age: "
+msgstr "Âge: "
+
+#: lastfm_tabs.php:551
+#@ lastfm_tabs
+msgid "Gender: "
+msgstr "Genre: "
+
+#: lastfm_tabs.php:552
+#@ lastfm_tabs
+msgid "Playcount: "
+msgstr "Nombre d'écoutes: "
+
+#: lastfm_tabs.php:553
+#@ lastfm_tabs
+msgid "Profilepage"
+msgstr "Page de profil"
+
+#: lastfm_tabs.php:554
+#@ lastfm_tabs
+msgid "Registered: "
+msgstr "Enregistré: "
+
+#: lastfm_tabs.php:711
+#@ lastfm_tabs
+msgid "by "
+msgstr "par "
+
+#: lastfm_tabs.php:712
+#: lastfm_tabs.php:801
+#, php-format
+#@ lastfm_tabs
+msgid "Played %d times."
+msgstr "Joué %d fois."
+
+#: lastfm_tabs.php:949
+#, php-format
+#@ lastfm_tabs
+msgid "Cacherefresh done at %s"
+msgstr "Rafraîchissement du cache effectué à %s"
+
+#: lastfm_tabs.php:963
+#: lastfm_tabs.php:988
+#@ lastfm_tabs
+msgid "Data not cached."
+msgstr "Données non mises en cache"
+
+#: lastfm_tabs.php:1019
+#@ lastfm_tabs
+msgid "Invalid function call"
+msgstr "Appel de fonction invalide"
+
+#: lastfm_tabs.php:1019
+#@ lastfm_tabs
+msgid "Use "
+msgstr "Utilise "
+
+#: lastfm_tabs.php:1019
+#@ lastfm_tabs
+msgid "or"
+msgstr "ou"
+

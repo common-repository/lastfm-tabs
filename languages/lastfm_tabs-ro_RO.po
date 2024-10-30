@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lastfm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-20 21:28+0100\n"
+"PO-Revision-Date: 2012-03-26 13:42+0200\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lastfm_options.php:23
+msgid "General settings"
+msgstr "Setări generale"
+
+#: lastfm_options.php:24
+msgid "Widget tabs"
+msgstr "Tab-uri widget"
+
+#: lastfm_options.php:25
+msgid "Reset to defaults"
+msgstr "Reiniţializare la valorile implicite"
+
+#: lastfm_options.php:26
+msgid "About/Help"
+msgstr "Despre / ajutor"
+
+#: lastfm_options.php:37
+#: lastfm_options.php:83
+msgid "Last.fm options"
+msgstr "Opţiuni Last.FM"
+
+#: lastfm_options.php:48
+msgid "Default Field"
+msgstr "Câmp implicit"
+
+#: lastfm_options.php:49
+msgid "This is a default description."
+msgstr "Aceasta este o descriere implicit."
+
+#: lastfm_options.php:98
+msgid "Save Changes"
+msgstr "Salvaţi modificările"
+
+#: lastfm_options.php:151
+msgid "Clear caches"
+msgstr "Ștergere memorii cache"
+
+#: lastfm_options.php:170
+msgid "<h4>Shortcode</h4>"
+msgstr "<h4>Shortcode</h4>"
+
+#: lastfm_options.php:171
+msgid "<p>You can use the following shortcode:</p>"
+msgstr "<p>Aveţi posibilitatea să utilizaţi următoarele shortcode:</p>"
+
+#: lastfm_options.php:173
+msgid "<p>The following functions are available: albums, friends, charts, artists, info, recent, loved and shouts</p>"
+msgstr "<p>Sunt disponibile următoarele funcţii: albume, prieteni, diagrame, artişti, info, recente, iubit şi strigăte</p>"
+
+#: lastfm_options.php:174
+msgid "<p>You may combine two or more of these functions with commas.</p>"
+msgstr "<p>Pot combina două sau mai multe din aceste funcţii cu virgule.</p>"
+
+#: lastfm_options.php:175
+msgid "<p>The title-parameter enables/disables output of the corresponding title for each function. Title and count are optional. If not provided, the plugin options will be used.</p>"
+msgstr "<p>Titlul de titlu-parametru activează/dezactivează producția corespunzătoare pentru fiecare funcţie. Titlul și numărul sunt opționale. Dacă nu, va fi utilizat opţiunile de plug-in.</p>"
+
+#: lastfm_options.php:176
+msgid "<p>An example:</p>"
+msgstr "<p>Exemplu:</p>"
+
+#: lastfm_options.php:178
+msgid "<p>Would display all functions in that order with max. 3 entries each and print the titles.</p>"
+msgstr "<p>Ar afişa toate funcţiile în această ordine cu max. 3 intrări fiecare şi imprimaţi titlurile.</p>"
+
+#: lastfm_options.php:179
+msgid "<h4>Template tag</h4>"
+msgstr "<h4>Şablon tag-ul</h4>"
+
+#: lastfm_options.php:180
+msgid "<p>In your templates you can use the function <span class=\"code\">lastfm_tabs_render($functions=array(), $count=false, $echotitle=false, $return=false)</span></p>"
+msgstr "<p>În şabloanele dumneavoastră, puteţi utiliza funcţia de <span class=\"code\">lastfm_tabs_render($functions=array(), $count=false, $echotitle=false, $return=false)</span></p>"
+
+#: lastfm_options.php:181
+msgid "<p>So the following would output a list of 5 of your friends and the 5 most listened to albums without titles:</p>"
+msgstr "<p>Astfel încât următoarele ar afişează o listă de 5 prieteni şi 5 cele mai ascultat albume fără titluri:</p>"
+
+#: lastfm_options.php:184
+msgid "<p>If you do not want to echo the function's return, add the last parameter and set it to true.</p>"
+msgstr "<p>Dacă nu doriţi să echo funcţia întoarcerea lui, adăugaţi parametrul ultima şi setaţi-o la true.</p>"
+
+#: lastfm_options.php:185
+msgid "<h4>Note</h4>"
+msgstr "<h4>Notă</h4>"
+
+#: lastfm_options.php:186
+msgid "<p>Changes in a template tag will not immediately take effect since all the data is cached. If you change options in a template tag you have to manually clean the plugin cache.</p>"
+msgstr "Imediat <p>modificări într-un şablon tag-ul nu vor avea efect deoarece toate datele este în cache. Dacă modificaţi opţiunile într-un şablon tag-ul aveţi pentru a curăţa manual cache dop.</p>"
+
+#: lastfm_options.php:187
+msgid "<p>If you have any questions or ideas to improve this plugins, write to felix@kreativkonzentrat.de or drop a line at "
+msgstr "<p>Dacă aveţi orice întrebări sau idei pentru a îmbunătăţi acest plugin-uri, scrie la felix@kreativkonzentrat.de sau picătură o linie la "
+
+#: lastfm_options.php:262
+msgid "Widget title"
+msgstr "Titlul widget"
+
+#: lastfm_options.php:263
+msgid "Default widget title"
+msgstr "Implicit widget titlu"
+
+#: lastfm_options.php:269
+msgid "Last.fm username"
+msgstr "Last.FM username"
+
+#: lastfm_options.php:270
+msgid "Your last.fm username"
+msgstr "Numele de utilizator last.fm"
+
+#: lastfm_options.php:277
+msgid "Cover size"
+msgstr "Dimensiunea de acoperire"
+
+#: lastfm_options.php:278
+msgid "Size of displayed images"
+msgstr "Dimensiunea imaginilor afişate"
+
+#: lastfm_options.php:282
+msgid "small"
+msgstr "mici"
+
+#: lastfm_options.php:283
+msgid "medium"
+msgstr "mediu"
+
+#: lastfm_options.php:284
+msgid "large"
+msgstr "mare"
+
+#: lastfm_options.php:285
+msgid "extra large"
+msgstr "extra mare"
+
+#: lastfm_options.php:289
+msgid "Cache expiration"
+msgstr "Expirare cache"
+
+#: lastfm_options.php:290
+msgid "Time in minutes"
+msgstr "Timpul în minute"
+
+#: lastfm_options.php:297
+msgid "Fallback cover"
+msgstr "Cover rezervă"
+
+#: lastfm_options.php:298
+msgid "URL of fallback cover when no image is found"
+msgstr "URL-ul de rezervă acoperire găsește nicio imagine"
+
+#: lastfm_options.php:305
+msgid "Fancy mouseover effect"
+msgstr "Efectul mouseover fantezie"
+
+#: lastfm_options.php:306
+msgid "Sliding/fading caption on covers"
+msgstr "Alunecare/decolorare legendă pe acoperă"
+
+#: lastfm_options.php:312
+msgid "Effect"
+msgstr "Efect"
+
+#: lastfm_options.php:317
+msgid "fade"
+msgstr "Estompare"
+
+#: lastfm_options.php:318
+msgid "slide"
+msgstr "diapozitiv"
+
+#: lastfm_options.php:322
+msgid "Effect duration"
+msgstr "Efect de durată"
+
+#: lastfm_options.php:323
+msgid "in ms"
+msgstr "în ms"
+
+#: lastfm_options.php:331
+msgid "Effect origin"
+msgstr "Efect de origine"
+
+#: lastfm_options.php:336
+msgid "bottom"
+msgstr "partea de jos"
+
+#: lastfm_options.php:337
+msgid "top"
+msgstr "Top"
+
+#: lastfm_options.php:338
+msgid "left"
+msgstr "stânga"
+
+#: lastfm_options.php:339
+msgid "right"
+msgstr "dreptul de"
+
+#: lastfm_options.php:343
+msgid "Use stylesheet?"
+msgstr "Utilizaţi foaia de stil?"
+
+#: lastfm_options.php:344
+msgid "Needed for sliding/fading captions. Fixes image width and height to 126px.<br /> You can place your own lastfm.css in your template folder to overwrite the default stylesheet."
+msgstr "Necesare pentru alunecare/decolorare legende. Fixat imagine lăţimea şi înălţimea 126px. < br /> puteţi plasa propriul lastfm.css în folderul şablon pentru a suprascrie foaia de stil implicit."
+
+#: lastfm_options.php:350
+msgid "Enable tabbed navigation?"
+msgstr "Activare navigare cu file?"
+
+#: lastfm_options.php:351
+msgid "jQuery tabs for your Last.fm widget"
+msgstr "filele jQuery pentru al tău widget Last.fm"
+
+#: lastfm_options.php:357
+msgid "Show artist image when no album cover is found instead of default cover?"
+msgstr "Arată imagini artist când nu coperta albumului este găsit în loc de implicit acoperire?"
+
+#: lastfm_options.php:358
+msgid "May increase loading time"
+msgstr "Poate creşte timpul de încărcare"
+
+#: lastfm_options.php:364
+msgid "Enable debugmode?"
+msgstr "Permite debugmode?"
+
+#: lastfm_options.php:365
+msgid "Shows some caching information"
+msgstr "Afişează unele informaţii cache"
+
+#: lastfm_options.php:376
+msgid "Enable recently played tracks tab?"
+msgstr "Enable jucat recent melodii fila?"
+
+#: lastfm_options.php:383
+#: lastfm_options.php:405
+#: lastfm_options.php:419
+#: lastfm_options.php:441
+#: lastfm_options.php:463
+#: lastfm_options.php:485
+#: lastfm_options.php:507
+#: lastfm_options.php:543
+msgid "Title:"
+msgstr "Titlu:"
+
+#: lastfm_options.php:390
+msgid "Number of tracks to display"
+msgstr "Numărul de piese pentru a afişa"
+
+#: lastfm_options.php:398
+msgid "Enable user info tab?"
+msgstr "Permite utilizatorului info fila?"
+
+#: lastfm_options.php:412
+msgid "Enable friends tab?"
+msgstr "Activaţi fila prieteni?"
+
+#: lastfm_options.php:426
+msgid "Number of friends to display"
+msgstr "Număr de prieteni pentru a afişa"
+
+#: lastfm_options.php:434
+msgid "Enable loved tracks tab?"
+msgstr "Enable iubit piese fila?"
+
+#: lastfm_options.php:448
+msgid "Number of loved tracks to display"
+msgstr "Numărul de piesele iubit pentru a afişa"
+
+#: lastfm_options.php:456
+msgid "Enable shouts tab?"
+msgstr "Enable strigă fila?"
+
+#: lastfm_options.php:470
+msgid "Number of shouts to display"
+msgstr "Numărul de strigăte pentru a afişa"
+
+#: lastfm_options.php:478
+msgid "Enable weekly album charts tab?"
+msgstr "Permite săptămânal album charts fila?"
+
+#: lastfm_options.php:479
+#: lastfm_options.php:501
+#: lastfm_options.php:537
+msgid "May increase loading time on big lists when not cached yet"
+msgstr "Poate creşte timpul de încărcare pe listele de mare atunci când nu cached încă"
+
+#: lastfm_options.php:492
+msgid "Number of chart entries to display"
+msgstr "Numărul de intrări de diagramă pentru a afişa"
+
+#: lastfm_options.php:500
+msgid "Enable top albums tab?"
+msgstr "Activaţi fila albume de top?"
+
+#: lastfm_options.php:514
+#: lastfm_options.php:550
+msgid "Number of top album entries to display"
+msgstr "Numărul de intrări album de top pentru a afişa"
+
+#: lastfm_options.php:522
+#: lastfm_options.php:558
+msgid "Period"
+msgstr "Perioada"
+
+#: lastfm_options.php:536
+msgid "Enable top artists tab?"
+msgstr "Activaţi fila artişti de top?"
+
+#: lastfm_options.php:572
+msgid "Reset options"
+msgstr "Reiniţializaţi opţiunile"
+
+#: lastfm_options.php:576
+msgid "Check this box and click \"Save Changes\" below to reset all plugin options to their defaults."
+msgstr " mai jos pentru a reseta toate plugin-ul opţiunile la valorile implicite."
+
+#: lastfm_tabs.php:126
+#: lastfm_tabs.php:349
+#: lastfm_tabs.php:409
+#: lastfm_tabs.php:478
+#: lastfm_tabs.php:527
+#: lastfm_tabs.php:587
+#: lastfm_tabs.php:662
+#: lastfm_tabs.php:756
+#: lastfm_tabs.php:844
+#, php-format
+msgid "%s data not cached. "
+msgstr "date %s nu în cache. "
+
+#: lastfm_tabs.php:169
+#: lastfm_tabs.php:387
+#: lastfm_tabs.php:460
+#: lastfm_tabs.php:508
+#: lastfm_tabs.php:565
+#: lastfm_tabs.php:640
+#: lastfm_tabs.php:733
+#: lastfm_tabs.php:822
+#: lastfm_tabs.php:892
+#: lastfm_tabs.php:968
+#, php-format
+msgid "%s data was cached. "
+msgstr "date %s a fost în cache. "
+
+#: lastfm_tabs.php:191
+msgid "Settings"
+msgstr "Setări"
+
+#: lastfm_tabs.php:207
+msgid "Caches cleared."
+msgstr "Caches deselectată."
+
+#: lastfm_tabs.php:546
+msgid "ID: "
+msgstr "ID: "
+
+#: lastfm_tabs.php:547
+msgid "Nick: "
+msgstr "Nick: "
+
+#: lastfm_tabs.php:548
+msgid "Name: "
+msgstr "nume: "
+
+#: lastfm_tabs.php:549
+msgid "Country: "
+msgstr "Ţară: "
+
+#: lastfm_tabs.php:550
+msgid "Age: "
+msgstr "Vârstă: "
+
+#: lastfm_tabs.php:551
+msgid "Gender: "
+msgstr "Sex: "
+
+#: lastfm_tabs.php:552
+msgid "Playcount: "
+msgstr "Playcount: "
+
+#: lastfm_tabs.php:553
+msgid "Profilepage"
+msgstr "Profilepage"
+
+#: lastfm_tabs.php:554
+msgid "Registered: "
+msgstr "Înregistrate: "
+
+#: lastfm_tabs.php:711
+msgid "by "
+msgstr "de "
+
+#: lastfm_tabs.php:712
+#: lastfm_tabs.php:801
+#, php-format
+msgid "Played %d times."
+msgstr "Jucat de %d ori."
+
+#: lastfm_tabs.php:949
+#, php-format
+msgid "Cacherefresh done at %s"
+msgstr "Cacherefresh adoptată la %s"
+
+#: lastfm_tabs.php:963
+#: lastfm_tabs.php:988
+msgid "Data not cached."
+msgstr "Datele nu în cache."
+
+#: lastfm_tabs.php:1019
+msgid "Invalid function call"
+msgstr "Apelul de funcție incorectă"
+
+#: lastfm_tabs.php:1019
+msgid "Use "
+msgstr "Utilizarea "
+
+#: lastfm_tabs.php:1019
+msgid "or"
+msgstr "sau"
+
+#~ msgid ""
+#~ "<p>This plugin in maintained by Felix Moche (felix@kreativkonzentrat.de)</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p>Dieses Plugin wird von Felix Moche (felix@kreativkonzentrat.de) "
+#~ "gewartet</p>"
+
+#~ msgid "Data was cached."
+#~ msgstr "A fost cached date."
+
+#~ msgid "Friends"
+#~ msgstr "Prieteni"
+
+#~ msgid "Favorites"
+#~ msgstr "Favorite"
+
+#~ msgid "Shouts"
+#~ msgstr "Strigă"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Charts"
+#~ msgstr "Diagrame"
+
+#~ msgid "Top albums"
+#~ msgstr "Albume de top"
+
+#~ msgid "Top artists"
+#~ msgstr "Artişti de top"
+
+#~ msgid "Recent Tracks"
+#~ msgstr "Melodii recente"
+
+#~ msgid "Loved tracks"
+#~ msgstr "Iubit de melodii"
+
+#~ msgid "Recent tracks"
+#~ msgstr "Melodii recente"
+
+#~ msgid "Tabs"
+#~ msgstr "File"
+
+#~ msgid "Options updated."
+#~ msgstr "Opţiuni actualizate."
+
+#~ msgid ""
+#~ "<div id=\"message\" class=\"updated fade\"><p>Your settings have been "
+#~ "updated.</p></div>"
+#~ msgstr ""
+#~ "<div id=\"message\" class=\"updated fade\"><p>Einstellungen wurden "
+#~ "gespeichert.</p></div>"
+
+#~ msgid "Debug mode:"
+#~ msgstr "Debug mode:"
+
+#~ msgid "Address of default cover:"
+#~ msgstr "Adresa de acoperire implicite:"
+
+#~ msgid "Recently played"
+#~ msgstr "Redate recent"
+
+#~ msgid "Friends avatar size:"
+#~ msgstr "Prieteni avatar dimensiune:"
+
+#~ msgid ""
+#~ "Enable weekly album charts tab? (May increase loading time on big lists "
+#~ "when not cached yet)"
+#~ msgstr ""
+#~ "Wöchentliche Charts-Tab aktivieren? (Kann bei großen Listen die Ladezeit "
+#~ "verlängern falls noch nicht im Cache)"
+
+#~ msgid "overall"
+#~ msgstr "total"
+
+#~ msgid "7 days"
+#~ msgstr "7 zile"
+
+#~ msgid "3 months"
+#~ msgstr "3 luni"
+
+#~ msgid "6 months"
+#~ msgstr "6 luni"
+
+#~ msgid "12 months"
+#~ msgstr "12 luni"
+
+#~ msgid ""
+#~ "Enable top artists tab? (May increase loading time on big lists when not "
+#~ "cached yet)"
+#~ msgstr ""
+#~ "Meistgehörte Interpreten-Tab aktivieren? (Kann bei großen Listen die "
+#~ "Ladezeit verlängern falls noch nicht im Cache)"
+
+#~ msgid "Number of top artist entries to display:"
+#~ msgstr "Numărul de intrări de top artist pentru a afişa:"
+
+#~ msgid "Update options"
+#~ msgstr "Opţiuni de actualizare"
+
+#~ msgid ""
+#~ "To delete the cache and manually refresh your last.fm-covers, push this "
+#~ "button:"
+#~ msgstr ""
+#~ "Um den Cache zu löschen und deine Cover manuell  zu aktualisieren, drücke "
+#~ "diesen Button:"
+
+#~ msgid "Last.fm info options"
+#~ msgstr "Last.FM info opţiuni"
+
+#~ msgid "Last.fm friends options"
+#~ msgstr "Last.FM prieteni opţiuni"
+
+#~ msgid "Last.fm loved tracks options"
+#~ msgstr "Last.FM iubit piese opţiuni"
+
+#~ msgid "Last.fm shouts options"
+#~ msgstr "Last.FM strigă opţiuni"
+
+#~ msgid "Last.fm top albums options"
+#~ msgstr "Last.FM albume top opţiuni"
+
+#~ msgid "Last.fm top artists options"
+#~ msgstr "Opţiuni de artişti de top Last.FM"
+
+#~ msgid "Use stylesheet (For mouseover effect. Fixed image width)?"
+#~ msgstr "Utilizaţi foaia de stil (pentru efectul mouseover. Imagine fix lăţime)?"
+#~ "Stylesheet benutzen (wichtig für mouseover-Effekt. Achtung: Bildgröße "
+#~ "wird auf 126x130px gesetzt)?"
+
+#~ msgid "Enable cover art tab?"
+#~ msgstr "Permite acoperirea arta fila?"
+
+#~ msgid "Title"
+#~ msgstr "Titlul"
